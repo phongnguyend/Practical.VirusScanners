@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AwsGuardDutyMalwareProtecti
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClamAVScanner", "ClamAVScanner\ClamAVScanner.csproj", "{2CDEBA87-C63E-423F-BBA2-5A6C810DA730}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VirusTotalScanner", "VirusTotalScanner\VirusTotalScanner.csproj", "{7A23E636-4133-4E54-81C1-696348209270}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{2CDEBA87-C63E-423F-BBA2-5A6C810DA730}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2CDEBA87-C63E-423F-BBA2-5A6C810DA730}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2CDEBA87-C63E-423F-BBA2-5A6C810DA730}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7A23E636-4133-4E54-81C1-696348209270}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7A23E636-4133-4E54-81C1-696348209270}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7A23E636-4133-4E54-81C1-696348209270}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7A23E636-4133-4E54-81C1-696348209270}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
