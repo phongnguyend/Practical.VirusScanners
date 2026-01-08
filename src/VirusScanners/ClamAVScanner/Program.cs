@@ -1,6 +1,11 @@
 ﻿using nClam;
+using System.Text;
 
 var filePath = "C:\\Users\\Phong.NguyenDoan\\Downloads\\python-3.12.8-amd64.exe";
+
+
+// https://www.eicar.org/download-anti-malware-testfile/
+// using var stream = new MemoryStream(Encoding.ASCII.GetBytes(@"X5O!P%@AP[4\PZX54(P^)7CC)7}$EICAR-STANDARD-ANTIVIRUS-TEST-FILE!$H+H*"));
 
 using var stream = File.OpenRead(filePath);
 
